@@ -1,0 +1,93 @@
+ /* Colors and fonts */
+
+body{
+	background-color: #EBBBAA;
+	color: white;
+	font-size: 20px;
+	font-family: 'Lora', serif;
+}
+h1{
+	color: rgb(105, 105, 105);
+	font-family: 'Old Standard TT', serif;
+	font-weight: bolder;
+	font-size: 40px;
+	margin: 5PX 5PX;
+}
+h2{
+	color: rgb(105, 105, 105);
+	font-family: 'Old Standard TT', serif;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 5PX 5PX;
+}
+a{
+	text-decoration: none;
+	color: grey
+}
+.pictures{
+	border-radius: 2px;
+	width: 200PX;
+	height: 270PX;
+	margin: 5px 5px;
+}
+.picturess{
+	border-radius: 3px;
+	width: 200PX;
+	height: 140PX;
+	margin: 5px 5px;
+}
+.picturess1{
+	border-radius: 3px;
+	width: 270PX;
+	height: 200PX;
+	margin: 5px 5px;
+}
+.pictures2{
+	border-radius: 3px;
+	width: 200PX;
+	height: 240PX;
+	margin: 5px 5px;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50PX;
+	color: #EBBBAA;
+}
+/*Custom design with class*/
+.container {
+	width: 700PX;
+	margin: 40px auto;
+	width: content;
+}
+@media(max-width: 540px){
+	.container {
+		width: 400PX;
+	}
+}
+	
+@media(max-width: 760PX){
+	.container{
+		width: 600PX;
+	}
+}	
+.card-white {
+	background-color: #F6DCD3;
+    padding: 40PX;
+    margin: 20PX 0;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    width: 700PX;
+    border-radius: 3px;
+    text-align: center;
+}
+#profile {
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+}
